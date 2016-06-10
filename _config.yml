@@ -1,29 +1,41 @@
-name: glanzmann-SCHWIMMEN
-favicon: null
-layout_spectrum: 0.33997
-typography_spectrum: 0.38865
 title: glanzmann-FOTOGRAFIE
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
-opengraph:
-  image: null
-  type: null
-  appId: null
+purpose: []
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 color:
+  saturation: 0.2860268047079444
+  brandStrength: 0.2155388
+  lightness: 0.1700647880788893
   brandColors:
     - '#ADD7F6'
     - '#87BFFF'
     - '#3F8EFC'
     - '#2667FF'
     - '#3B28CC'
-  brandStrength: 0.4310049023479223
-  lightness: 0.17006478807888925
-  saturation: 0.2860268047079444
   rhythmicContrast: 0.09558848780579865
-purpose: []
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+name: glanzmann-SCHWIMMEN
+favicon: null
+opengraph:
+  image: null
+  type: null
+  appId: null
+typography_spectrum: 0.38865
+layout_spectrum: 0.33997
